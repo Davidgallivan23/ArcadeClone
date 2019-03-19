@@ -7,7 +7,7 @@
 - [Comments](#Comments)
 
 ## Design
-    ### Game Funcation
+    Game Funcation
         * Run Error free
         * Player can not move off screen
         * Vehicles cross the screen
@@ -15,10 +15,10 @@
         * Vehicle-player collision resets the game
         * Something happens when player wins
 
-    ### Object-Oriented Code
+    Object-Oriented Code
         * Game objects (player and vehicles) are implemented using JavaScript object-oriented programming features.
 
-    ### Documentation
+    Documentation
         * Include a read me
         * Comments are present and effectively explain longer code procedures. As a rule of thumb: describe what all custom functions and object methods do.
         * Code is formatted with consistent, logical, and easy-to-read formatting as described in the Udacity JavaScript Style Guide.
@@ -26,10 +26,10 @@
 
 ## Instructions
 
-    ### How to run
+    How to run
         To run the application, open the index.html in a browser
 
-    ### How to play
+    How to play
         #### Press Enter to start
         #### Use the arrow keys to move left, right, up and down
         #### Run to the water and collect gems to score points
