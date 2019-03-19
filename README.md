@@ -16,12 +16,16 @@
         * Something happens when player wins
 
     Object-Oriented Code
-        * Game objects (player and vehicles) are implemented using JavaScript object-oriented programming features.
+        * Game objects (player and vehicles) are implemented using JavaScript 
+            object-oriented programming features.
 
     Documentation
         * Include a read me
-        * Comments are present and effectively explain longer code procedures. As a rule of thumb: describe what all custom functions and object methods do.
-        * Code is formatted with consistent, logical, and easy-to-read formatting as described in the Udacity JavaScript Style Guide.
+        * Comments are present and effectively explain longer code procedures. 
+            As a rule of thumb: describe what all custom functions and object 
+            methods do.
+        * Code is formatted with consistent, logical, and easy-to-read 
+            formatting as described in the Udacity JavaScript Style Guide.
 
 
 ## Instructions
@@ -37,4 +41,7 @@
         * Do not get ran over by the bugs 
 
 ## Comments
-    I did not like this project.  I am not a gamer and I had a hard time understanding the flow of the program since most of the heavy lifting was done by the engine that was provided.  I tried hard to at least code it using the OO techniques.  
+    I did not like this project.  I am not a gamer and I had a hard time 
+    understanding the flow of the program since most of the heavy lifting was 
+    done by the engine that was provided.  I tried hard to at least code it 
+    using the OO techniques.  
