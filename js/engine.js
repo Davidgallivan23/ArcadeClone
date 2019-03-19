@@ -85,12 +85,12 @@ let Engine = (function(global) {
      */
     function update(dt) {
         const ENTERKEY = 13;
+
         switch (currentGameState) {
             case "startGame":
                 document.removeEventListener("keyup", input);
                 let startInput = function(e) {
-                    let key = e.which || e.keyCode;
-                    if (key === ENTERKEY) {
+                    if (e.which === ENTERKEY || e.keyCode === ENTERKEY) {
                         currentGameState = "inGame";
                     }
                 };
@@ -105,8 +105,7 @@ let Engine = (function(global) {
             case "gameOver":
                 document.removeEventListener('keyup', input);
                 let gameoverInput = function(e) {
-                    let key = e.which || e.keyCode;
-                    if (key === ENTERKEY) {
+                    if (e.which === ENTERKEY || e.keyCode === ENTERKEY) {
                         currentGameState = "inGame";
                     }
                 };
@@ -171,11 +170,11 @@ let Engine = (function(global) {
                     ctx.fillStyle = "black";
                     ctx.font = "16px Comic Sans MS";
                     ctx.textAlign = "center";
-                    ctx.fillText("Use the arrow keys to move", canvas.width/2, canvas.height/3.3);
-                    ctx.fillText("Reach the water and collect gems to score", canvas.width/2, canvas.height/3.0);
+                    ctx.fillText("Use the arrow keys to move, left, right up and down", canvas.width/2, canvas.height/3.3);
+                    ctx.fillText("Run to the water and collect gems to score", canvas.width/2, canvas.height/3.0);
                     ctx.fillText("Difficulty increases when you reach water", canvas.width/2, canvas.height/2.75);
-                    ctx.fillText("Collect hearts for extra lives", canvas.width/2, canvas.height/2.55);
-                    ctx.fillText("Avoid the bugs to stay alive", canvas.width/2, canvas.height/2.37);
+                    ctx.fillText("Pick up hearts for extra lives", canvas.width/2, canvas.height/2.55);
+                    ctx.fillText("Do not get ran over by the bugs", canvas.width/2, canvas.height/2.37);
                     ctx.fillStyle = "black";
                     ctx.font = "20px Comic Sans MS";
                     ctx.textAlign = "center";
